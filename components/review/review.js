@@ -13,8 +13,7 @@ function Review() {
       .then((response) => response.json())
       .then((data) => setCountryData(data));
     console.log(`This country is selected ${selectedCountry}`);
-    console.log(countryData);
-  }, [selectedCountry, countryData]);
+  }, [selectedCountry]);
 
   function clickHandler(value) {
     setSelectedCountry(value);
