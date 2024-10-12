@@ -36,8 +36,8 @@ function Founders() {
         <div className="founder-card">
           <h2>Our experience</h2>
           <p>
-            Numbers do not lie - we'we been around for 20+ years and have a long
-            list of happy cutomers who gladly reccomend us.
+            Numbers do not lie - we have been around for 20+ years and have a
+            long list of happy cutomers who gladly reccomend us.
           </p>
           <ImageCard
             src="/images/founders-2.png"

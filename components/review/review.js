@@ -14,7 +14,7 @@ function Review() {
       .then((data) => setCountryData(data));
     console.log(`This country is selected ${selectedCountry}`);
     console.log(countryData);
-  }, [selectedCountry]);
+  }, [selectedCountry, countryData]);
 
   function clickHandler(value) {
     setSelectedCountry(value);
@@ -26,7 +26,7 @@ function Review() {
         <h2 className="reviewTitle"> Trusted </h2>
         <p className="reviewDesc">
           {" "}
-          We've got thousends of happy customers all over the UK. Choose your
+          We have got thousends of happy customers all over the UK. Choose your
           country to see the latest review.
         </p>
         <div className="reviewButtonContainer">
