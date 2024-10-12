@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 import { ImageCard } from "@/components/image/image";
 function Founders() {
@@ -36,7 +36,7 @@ function Founders() {
         <div className="founder-card">
           <h2>Our experience</h2>
           <p>
-            Numbers don't lie - we'we been around for 20+ years and have a long
+            Numbers do not lie - we'we been around for 20+ years and have a long
             list of happy cutomers who gladly reccomend us.
           </p>
           <ImageCard
@@ -50,7 +50,7 @@ function Founders() {
         <div className="founder-card">
           <h2>Our guarantee</h2>
           <p>
-            If you're not 100% satisfied we will fully refund yout purchase.
+            If you are not 100% satisfied we will fully refund yout purchase.
             Also, we offer free repairs for the first 20 years of ownership.
             Find that somewhere else.
           </p>
